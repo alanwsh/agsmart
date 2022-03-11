@@ -17,25 +17,16 @@
         object-fit: cover;
     }
 
-    p #desc{
-        font-size:2em;
-    }
     @media only screen and (max-width: 768px) {
         .card-img-top {
             height: 50vh;
         }
         p #desc{
-            font-size:1em;
-        }
-        button{
-            font-size:12px; 
-        }
-        .glow{
-            font-size:2em;
+            font-size:0.5em;
         }
     }
     .glow {
-        font-size: 4em;
+        font-size: 80px;
         color: #fff;
         text-align: start;
         -webkit-animation: glow 1s ease-in-out infinite alternate;

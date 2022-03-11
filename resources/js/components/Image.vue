@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-container fluid class="bg-dark border border-light p-5 text-white" style="background-image:url('background-image.png'); background-repeat:no-repeat; background-size:cover; background-color:rgba(0, 0, 0, 0.5);">
+        <b-container fluid class="bg-dark border border-light p-5 text-white" style="background-color:rgba(0, 0, 0, 0.5);">
             <b-row class="p-5 d-flex border border-light">
                 <b-col col="8" order="1" md="8" order-md="1" sm="12" order-sm="2" class="p-2">
                     <p class="glow" data-text="MOST POPULAR IMAGE" style="color:#cfe2f3; font-size:4em"><strong>MOST POPULAR IMAGE</strong></p>

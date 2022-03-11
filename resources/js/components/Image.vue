@@ -61,12 +61,12 @@
         },
         mounted() {
             this.axios
-                .get('http://127.0.0.1:8000/api/image/popular')
+                .get('https://agsmarttest.herokuapp.com/api/image/popular')
                 .then(response => {
                     this.most_popular_image = response.data[0];
                 });
             this.axios
-                .get('http://127.0.0.1:8000/api/image/mostviewed')
+                .get('https://agsmarttest.herokuapp.com/api/image/mostviewed')
                 .then(response => {
                     this.top_viewed = response.data;
                 });

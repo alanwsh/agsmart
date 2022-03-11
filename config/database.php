@@ -51,11 +51,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => $host,
+            'host' => 'us-cdbr-east-05.cleardb.net',
             'port' => env('DB_PORT', '3306'),
-            'database' => $database,
-            'username' => $username,
-            'password' => $password,
+            'database' => env('DB_DATABASE','heroku_dcfb965e7cd9251'),
+            'username' => env('DB_USERNAME', 'b8e6c4b1dde9bf'),
+            'password' => env('DB_PASSWORD','a51a9856'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
